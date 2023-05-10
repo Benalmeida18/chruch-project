@@ -23,11 +23,13 @@
             <p class="apresentacao__conteudo__texto">
          </section>
             <div class="apresentacao__conteudo__imagem_about">
-                  <img class="apresentacao__conteudo__imagem__cultos__1" src="./assets/C.familia.png" alt="culto da familia">/*
-                 <img class="apresentacao__conteudo__imagem__cultos__2" src="./assets/Ceia.png" alt="culto de ceia">/*
-                 <img class="apresentacao__conteudo__imagem__cultos__3" src="./assets/adoração.png" alt="culto de adoração">/*
-                 <img class="apresentacao__conteudo__imagem__cultos__4" src="./assets/honra.png" alt="culto de honra">/*
-                 <img class="apresentacao__conteudo__imagem__cultos__5" src="./assets/avançai.png" alt="culto de ensino">
+                  <img class="apresentacao__conteudo__imagem__cultos__1" src="./assets/familia.png" alt="culto da familia">
+                 <img class="apresentacao__conteudo__imagem__cultos__2" src="./assets/festividade.png" alt="festividade">
+                 <img class="apresentacao__conteudo__imagem__cultos__3" src="./assets/adoração.png" alt="culto de adoração">
+                 <img class="apresentacao__conteudo__imagem__cultos__4" src="./assets/honra.png" alt="culto de honra">
+                 <img class="apresentacao__conteudo__imagem__cultos__5" src="./assets/sexta.png" alt="culto de ensino">
+                 <img class="apresentacao__conteudo__imagem__cultos__5" src="./assets/quarta.png" alt="culto de quarta">
+                 <img class="apresentacao__conteudo__imagem__cultos__5" src="./assets/rhop.png" alt="culto de quarta">
           </div>
     </main>
     <footer></footer>
