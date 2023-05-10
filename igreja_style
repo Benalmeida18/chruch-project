@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root {
+    --cor-primaria: #212A3E;
+    --cor--secundaria: #F6f6f6;
+    --cor-terciaria: #1C82AD;
+    --cor-hover: #9BA4B5;
+
+    --fonte-primaria: 'krona one', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    background-color: var(--cor-primaria);
+    color: var(--cor--secundaria);
+}
+
+.cabecalho {
+    display: list-item;
+    padding: 2% 
+    
+}
+
+.cabecalho__menu{
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.cabecalho__menu__link{
+    font-family: var(--fonte-secundaria);
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--cor-terciaria);
+    text-decoration: none;
+}
+
+.apresentacao{
+    padding: 8% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__conteudo__texto__{
+
+    color:var(--cor-hover);
+}
+
+.apresentacao__conteudo__titulo {
+    color: var(--cor-terciaria);
+    font-size: 36px;
+    font-family: var(--fonte-primaria);
+}
+
+.apresentacao__conteudo__titulo__dois {
+    color: var(--cor-hover);
+    font-size: 26px;
+    font-family: var(--fonte-primaria);
+}
+
+.apresentacao__conteudo__texto{
+    font-size: 19px;
+    font-family: var(--fonte-secundaria);
+    font-weight: 400;
+}
+
+.apresentacao__conteudo__texto__destaque {
+    color: var(--cor-terciaria);
+
+}
+
+.apresentacao__conteudo__imagem {
+    position: absolute;
+    left: 420px;
+    top: 10px;
+    width: 10%;
+    border-radius: 50%;
+    align-items: center;
+
+}
+
+.apresentacao__conteudo__imagem__cultos {
+    width: 50%;
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    height: 50%;
+
+   
+}
+
+.apresentacao__conteudo__imagem__cultos__{
+    flex-direction: column;
+    align-items: center;
+
+}
+    
+.apresentacao__conteudo__imagem__cultos__2{
+    width: 50%;
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    height: 50%;
+     
+}
+
+.apresentacao__conteudo__imagem__cultos__3{
+    width: 50%;
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    height: 50%;
+     
+}
+
+.apresentacao__conteudo__imagem__cultos__4{
+    width: 35%;
+    height: 35%;
+    position:absolute;
+    left: 500px;
+    top: 30px;
+    height: 100px;
+     
+}
+
+.apresentacao__conteudo__imagem__cultos__5{ 
+    width: 35%;
+    position:absolute;
+    left: 250px;
+    top: 300px;
+    height: 35%; 
+    display: flex;
+    flex-direction: column;
+}
+
+.apresentacao__links {
+    display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.apresentacao__links__subtitulo{
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.apresentacao__links__navegacao {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    border: 2px;
+    width: auto;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: var(--cor--secundaria);
+    font-family: var(--fonte-secundaria);
+
+
+
+
+}
+
+.apresentacao__links__link:hover{
+    background-color: var(--cor-hover);
+}
