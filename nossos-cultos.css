@@ -1,0 +1,22 @@
+/*IMAGEM*/
+#image_igreja{
+    width: 600px;
+    margin: 10px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+/*TOTO O CAMPO DE TEXTO*/
+.apresentação_nossos_cultos{
+    padding: 8% 15% 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/*COLUNA DE IMAGENS*/
+.coluna_imagem_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
