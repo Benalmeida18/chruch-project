@@ -1,17 +1,19 @@
 
 
 .apresentacao__nossas__redes{
+    padding: 8% 15% 2%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
+    gap: 40px;
 }
 
 .apresentacao__conteudo__titulo{
     color: var(--cor-terciaria);
     font-size: 36px;
     font-family: var(--fonte-primaria);
-    align-items:
+    
 }
 
 .apresentacao__conteudo__titulo__dois {
@@ -40,7 +42,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 32px;
+    gap: 16px;
 }
 
 .apresentacao__links__subtitulo{
@@ -54,11 +56,13 @@
     display: flex;
     justify-content: center;
     gap: 16px;
+    align-items: center;
+    flex-direction: column;
     border: 2px solid var(--cor-terciaria);
     width: auto;
     text-align: center;
-    border-radius: 10px;
-    font-size: 1.5rem;
+    border-radius: 8px;
+    font-size: 1rem;
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
@@ -66,6 +70,20 @@
     font-family: var(--fonte-secundaria);
 }
 
+.apresentacao__links__link:hover{
+    background-color: var(--cor-hover);
+}
+
+.rodape{
+    color: var(--cor-primaria);
+    background-color: var(--cor-terciaria);
+    padding: 24px;
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
 .edicao__imagem{
-    width: 10%;
+    width: 5%;
 }
