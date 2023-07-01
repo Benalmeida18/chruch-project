@@ -9,7 +9,7 @@
 }
 /*TODO O CAMPO DE TEXTO*/
 .apresentação_nossos_cultos{
-    padding: 8% 15% 2%;
+    padding: 4% 7.5%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -42,4 +42,14 @@
 
 .apresentacao__conteudo__texto__destaque {
     color: var(--cor-terciaria);
+}
+
+.rodape{
+    color: var(--cor-primaria);
+    background-color: var(--cor-terciaria);
+    padding: 24px;
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 400;
 }
